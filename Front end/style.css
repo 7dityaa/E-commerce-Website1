@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.LoginBox
+#loginBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+#loginBox.d-none {
+    display: none;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 1.5rem;
+    cursor: pointer;
+} 
+
+/* Product Grid Styling */
+.row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.card .card-body h5 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.card .card-body p {
+    font-size: 1rem;
+    color: #888;
+}
+
+.card .card-body a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card .card-body a:hover {
+    background-color: #e68900;
+}
