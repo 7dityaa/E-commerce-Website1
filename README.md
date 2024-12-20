@@ -4,4 +4,8 @@
 1-Install MySQL and create a database using the sql/ecommerce_db.sql script.
 2-Update the database connection properties in DatabaseConnection.java if needed.
 3-Compile and run the project with Maven or your preferred IDE.
+<<<<<<< Updated upstream
 4-Use the UserDAO class to manage user data in the database.
+=======
+4-Use the UserDAO class to manage user data in the database
+>>>>>>> Stashed changes
