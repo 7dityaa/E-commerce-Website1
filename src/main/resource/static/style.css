@@ -1,0 +1,35 @@
+/* Basic styling for the e-commerce project */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+#product-list, #cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.product, .cart-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: calc(33% - 2em);
+}
